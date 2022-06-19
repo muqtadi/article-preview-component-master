@@ -13,6 +13,9 @@
   font-weight: 500;
   font-style: normal;
 }
+
+@import './hero';
+
 *{
   margin: 0;
   padding: 0;
@@ -24,6 +27,9 @@ body{
 }
 
 .wrapper{
+  display: grid;
+  place-content: center;
+
   max-width: 1440px;
   min-height: 100vh;
   margin: 0 auto;
@@ -33,5 +39,4 @@ body{
 .card{
   max-width: 325px;
   min-height: 510px;
-  border: 1px solid;
 }
