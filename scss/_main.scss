@@ -1,0 +1,17 @@
+.main{
+  padding: 35px 0;
+
+  .container{
+    .main__title{
+      font-size: 18px;
+      color: rgb(72, 85, 106);
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+    .main__copy{
+      color: rgb(109, 127, 151);
+      line-height: 25px;
+      font-size: 14px;
+    }
+  }
+}

@@ -15,6 +15,7 @@
 }
 
 @import './hero';
+@import './main';
 
 *{
   margin: 0;
@@ -39,4 +40,8 @@ body{
 .card{
   max-width: 325px;
   min-height: 510px;
+  background-color: #fff;
+}
+.container{
+  padding: 0 20px;
 }
