@@ -26,6 +26,12 @@ body{
 .wrapper{
   max-width: 1440px;
   min-height: 100vh;
-  margin: auto;
+  margin: 0 auto;
   background-color: rgb(236, 242, 248);
+  padding: 0 20px;
+}
+.card{
+  max-width: 325px;
+  min-height: 510px;
+  border: 1px solid;
 }
